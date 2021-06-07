@@ -74,22 +74,22 @@ export const myProjectCn = [
     {
       id: '1',
     theme: "Elisa's Portfolio Website",
-    description: "It's built with React as the website you're visiting now.",
+    description: '就是您目前正在觀看的這個網站！利用React.js製作的靜態網站，內容涵蓋自我介紹、工作簡歷以及代表作品集。',
     skills: ['React', 'Webpack', 'HTML5', 'JavaScript', 'CSS'],
-    imgUrl: 'xxx.jpg',
+    imgUrl: 'https://acy4so5jjmkm0sidovvzlq-on.drv.tw/coding/09.jpg',
     },
     {
       id: '2',
       theme: '線上訂房比價系統 (FunTime 訂房比價)',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam atque voluptates, dignissimos, in quaerat veritatis maiores fuga dolores dolorem eius.',
+      description: '擁有搜尋框、地圖找房、商品篩選等功能，和Agoda、Booking.com等知名訂房商家合作開發API，提供使用者即時詢價＆比價服務。我同時參與前端開發以及部分後端相關開發，以及商品資料庫的日常維運。',
       skills: ['PHP', 'JQuery', 'HTML5', 'CSS', 'JavaScript', 'mySQL'],
-      imgUrl: 'xxx.jpg',
+      imgUrl: 'https://acy4so5jjmkm0sidovvzlq-on.drv.tw/coding/08.jpg',
     },
     {
       id: '3',
       theme: '協作專案: Alpha Camp Tweet (前端部分)',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam atque voluptates, dignissimos, in quaerat veritatis maiores fuga dolores dolorem eius.',
+      description: '使用者可以註冊、登入、發表評論、以及回覆別人的留言等。此作品為參與Alpha Camp全端開發課程時，與組員合作開發的專案。前端開發的部分皆由我負責，包含api規格制定、串接api、畫面刻板等。',
       skills: ['Vue', 'Webpack', 'HTML5', 'Sass/scss', 'JavaScript'],
-      imgUrl: 'xxx.jpg',
+      imgUrl: 'https://acy4so5jjmkm0sidovvzlq-on.drv.tw/coding/05.jpg',
     },
     ]

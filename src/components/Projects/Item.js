@@ -44,17 +44,22 @@ const Item = (props) => {
     ]
 }
   return (
-    <div className="service-content">
-    <h3>{props.theme}</h3>
-    <p>{props.description}</p>
-    {props.skills.map((item, key) => {
-      return(<div className="pj-tag" key={key}>{item}</div>)
-    })}
-    <div className="pj-line"></div>
-      {btnArray.map((item) => {
-      const { id, text, url } =  item
-      return(<a href={url} target='_blank' rel='noopener noreferrer'><button key={id}>{text}</button></a>)
-    })}
+    <div className="projects-content">
+      <div className="projects-content-left">
+        <img src={props.imgUrl} alt={props.theme} />
+      </div>
+      <div className="projects-content-right">
+        <h3>{props.theme}</h3>
+        <p>{props.description}</p>
+        {props.skills.map((item, key) => {
+        return(<div className="pj-tag" key={key}>{item}</div>)
+        })}
+        <div className="pj-line"></div>
+          {btnArray.map((item) => {
+            const { id, text, url } =  item
+            return(<a  key={id} href={url} target='_blank' rel='noopener noreferrer'><button>{text}</button></a>)
+          })}
+      </div>
   </div>
   )
 }

@@ -2,16 +2,16 @@ const List = () => {
   return (
     <ul className="nav">
       <li>
-        <a href="#about">about</a>
+        <a href="#about">About</a>
       </li>
       <li>
-        <a href="#experience">experience</a>
+        <a href="#experience">Experience</a>
       </li>
       <li>
-        <a href="#projects">projects</a>
+        <a href="#projects">Projects</a>
       </li>
       <li>
-        <a href="#contact">contact</a>
+        <a href="#home">Home</a>
       </li>
     </ul>
   );
