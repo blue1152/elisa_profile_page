@@ -1,3 +1,8 @@
+import Figure from 'react-bootstrap/Figure'
+import FigureImage from 'react-bootstrap/FigureImage'
+import FigureCaption from 'react-bootstrap/FigureCaption'
+import Badge from 'react-bootstrap/Badge'
+import Button from 'react-bootstrap/Button'
 
 const Item = (props) => {
   let btnArray = []
@@ -6,8 +11,13 @@ const Item = (props) => {
     btnArray = [
       {
         id: '1',
+        text: 'Demo',
+        url: '#home'
+      },
+      {
+        id: '2',
         text: 'Source code',
-        url: '123'
+        url: 'https://github.com/blue1152/elisa_profile_page'
       }
     ]
     break;
@@ -45,21 +55,26 @@ const Item = (props) => {
 }
   return (
     <div className="projects-content">
-      <div className="projects-content-left">
-        <img src={props.imgUrl} alt={props.theme} />
-      </div>
-      <div className="projects-content-right">
-        <h3>{props.theme}</h3>
-        <p>{props.description}</p>
-        {props.skills.map((item, key) => {
-        return(<div className="pj-tag" key={key}>{item}</div>)
-        })}
-        <div className="pj-line"></div>
-          {btnArray.map((item) => {
-            const { id, text, url } =  item
-            return(<a  key={id} href={url} target='_blank' rel='noopener noreferrer'><button>{text}</button></a>)
+      <Figure>
+        <FigureImage
+          width={300}
+          height={200}
+          alt={props.theme}
+          src={props.imgUrl}
+        />
+        <FigureCaption>
+          <h3>{props.theme}</h3>
+          <p>{props.description}</p>
+          {props.skills.map((item, key) => {
+            return(<Badge className="pj-tag" variant="warning" key={key}>{item}</Badge>)
           })}
-      </div>
+          <div className="pj-line"></div>
+            {btnArray.map((item) => {
+              const { id, text, url } =  item
+              return(<a  key={id} href={url} target='_blank' rel='noopener noreferrer'><Button variant='info'>{text}</Button></a>)
+            })}
+        </FigureCaption>
+      </Figure>
   </div>
   )
 }

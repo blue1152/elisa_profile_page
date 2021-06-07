@@ -3,8 +3,6 @@ const Home = () => {
   return (
     <div className="home_bg" id="home">
       <div className="overlay"></div>
-      <div className="container_table">
-        <div className="container_table_cell">
           <h2>hi, i am elisa</h2>
           <div className="social_icons">
             <a href="mailto:bluememory1152@gmail.com">
@@ -44,8 +42,6 @@ const Home = () => {
               Resume
             </a>
           </div>
-        </div>
-      </div>
     </div>
   );
 };
