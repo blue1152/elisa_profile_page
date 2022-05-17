@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/elisa_profile_page/static/css/main.c0e04b56.chunk.css",
-    "main.js": "/elisa_profile_page/static/js/main.b4dbfbdc.chunk.js",
-    "main.js.map": "/elisa_profile_page/static/js/main.b4dbfbdc.chunk.js.map",
+    "main.css": "/elisa_profile_page/static/css/main.65746c4d.chunk.css",
+    "main.js": "/elisa_profile_page/static/js/main.4699b48a.chunk.js",
+    "main.js.map": "/elisa_profile_page/static/js/main.4699b48a.chunk.js.map",
     "runtime-main.js": "/elisa_profile_page/static/js/runtime-main.f2865e93.js",
     "runtime-main.js.map": "/elisa_profile_page/static/js/runtime-main.f2865e93.js.map",
     "static/js/2.3c2c8e9f.chunk.js": "/elisa_profile_page/static/js/2.3c2c8e9f.chunk.js",
     "static/js/2.3c2c8e9f.chunk.js.map": "/elisa_profile_page/static/js/2.3c2c8e9f.chunk.js.map",
     "index.html": "/elisa_profile_page/index.html",
-    "static/css/main.c0e04b56.chunk.css.map": "/elisa_profile_page/static/css/main.c0e04b56.chunk.css.map",
+    "static/css/main.65746c4d.chunk.css.map": "/elisa_profile_page/static/css/main.65746c4d.chunk.css.map",
     "static/js/2.3c2c8e9f.chunk.js.LICENSE.txt": "/elisa_profile_page/static/js/2.3c2c8e9f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f2865e93.js",
     "static/js/2.3c2c8e9f.chunk.js",
-    "static/css/main.c0e04b56.chunk.css",
-    "static/js/main.b4dbfbdc.chunk.js"
+    "static/css/main.65746c4d.chunk.css",
+    "static/js/main.4699b48a.chunk.js"
   ]
 }
