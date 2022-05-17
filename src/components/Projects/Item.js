@@ -7,6 +7,15 @@ import Button from 'react-bootstrap/Button'
 const Item = (props) => {
   let btnArray = []
   switch (props.theme) {
+    case "Nebula - Client page (前端部分)":
+      btnArray = [
+        {
+          id: '1',
+          text: 'Demo',
+          url: 'https://nebula.zyxel.com/'
+        },
+      ]
+      break;
   case "Elisa's Portfolio Website":
     btnArray = [
       {
@@ -44,12 +53,12 @@ const Item = (props) => {
       {
         id: '1',
         text: 'Demo',
-        url: '123'
+        url: ''
       },
       {
         id: '2',
         text: 'Source code',
-        url: '123'
+        url: ''
       }
     ]
 }
